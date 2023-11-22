@@ -27,8 +27,8 @@ export default function Home() {
       <p>
         AI is dope, the whole world is watching the GROK and Chat GPT rivalry.
         However, in my kingdom of DeFi, together you and I are a huge active
-        community that has made pretty big memes many times...and we're about to
-        do it again! Let’s fucking do it!
+        community that has made pretty big memes many times...and we&apos;re about to
+        do it again! Let&apos;s fucking do it!
       </p>
       <p>0XB2FD1E0478DBF61772996BCCE8A2F1151EEEDA37</p>
       <a
