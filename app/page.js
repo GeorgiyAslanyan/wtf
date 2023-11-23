@@ -41,13 +41,13 @@ export default function Home() {
       <p>Tokenomics</p>
       <p>SUPPLY : 10,000,000,000</p>
       <p>Liquidity 100% (Uniswap V2)</p>
-      <div className="flex gap-10">
+      <div className="flex sm:gap-10 gap-5">
         <p>NO PRESALE</p>
         <p>NO TEAM TOKENS</p>
         <p>NO TAX</p>
       </div>
       <a className="bg-[#528D27] hover:bg-white text-black ease-linear duration-100 transition-all px-4 py-2 rounded-xl"
-        href="http://"
+        href="https://t.me/ethereum_wtf"
         target="_blank"
         rel="noopener noreferrer">JOIN COMMUNITY</a>
       <p className="text-xs text-gray-200">COPYRIGHT © 2023 WTF</p>
