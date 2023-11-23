@@ -5,7 +5,7 @@ export default function Home() {
     <main className="flex w-[100vw] md:w-[70vw] xl:w-[54vw] min-h-screen flex-col items-center text-center justify-between gap-8">
       <h1 className=" text-xl ">
         <span className="font-bold text-[#528D27]">
-          WTF
+          WtF
         </span>{" "}
         is this market...?!
       </h1>
@@ -24,11 +24,11 @@ export default function Home() {
           <source src="/background.mp4" type="video/mp4" />
         </video>
       </div>
-      <p className="text-justify sm:text-center px-2 sm:px-0">
+      <p className="text-center px-2 sm:px-0">
         AI is dope, the whole world is watching the GROK and Chat GPT rivalry.
         However, in my kingdom of DeFi, together you and I are a huge active
         community that has made pretty big memes many times...and we&apos;re about to
-        do it again! Let&apos;s fucking do it!
+        do it again! <br className="flex"/> <br className="flex"/> Let&apos;s fucking do it, Frogs!
       </p>
       <p>0x.....................</p>
       <a
@@ -39,7 +39,7 @@ export default function Home() {
         FUCKING BUY
       </a>
       <p>Tokenomics</p>
-      <p>SUPPLY : 10,000,000,000</p>
+      <p>Supply: 10,000,000,000</p>
       <p>Liquidity 100% (Uniswap V2)</p>
       <div className="flex sm:gap-10 gap-5">
         <p>NO PRESALE</p>
