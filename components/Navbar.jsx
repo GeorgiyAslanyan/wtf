@@ -1,10 +1,11 @@
+import Image from "next/image";
 import React from "react";
 
 const Navbar = () => {
   return (
     <div className="justify-between flex py-4 w-full">
       <a href="http://" target="_blank" rel="noopener noreferrer">
-        LOGO
+        <Image src={'/logo.PNG'} alt="logo" width={40} height={40}/>
       </a>
       <div className="group relative cursor-pointer">
         <p className="flex gap-2 items-center">

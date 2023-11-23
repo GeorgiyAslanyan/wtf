@@ -17,7 +17,19 @@
   }
 }
 
+@font-face {
+  font-family: 'Unutterable-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('/Unutterable-Regular'), url('/Unutterable-Regular.woff') format('woff');
+}
+
+
 body {
   font-family: 'Roboto Mono', monospace;
   color: rgb(var(--foreground-rgb));
+}
+
+body h1{
+  font-family: 'Unutterable-Regular';
 }

@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="flex w-[100vw] md:w-[70vw] xl:w-[54vw] min-h-screen flex-col items-center text-center justify-between gap-8">
       <h1 className=" text-xl ">
-        <span className="bg-clip-text font-bold text-transparent bg-gradient-to-br from-green-500 to-green-800">
+        <span className="font-bold text-[#528D27]">
           WTF
         </span>{" "}
         is this market...?!
@@ -30,27 +30,27 @@ export default function Home() {
         community that has made pretty big memes many times...and we&apos;re about to
         do it again! Let&apos;s fucking do it!
       </p>
-      <p>0XB2FD1E0478DBF61772996BCCE8A2F1151EEEDA37</p>
+      <p>0x.....................</p>
       <a
-        className="bg-green-500 hover:bg-white text-black ease-linear duration-100 transition-all px-4 py-2 rounded-xl"
+        className="bg-[#528D27] hover:bg-white text-black ease-linear duration-100 transition-all px-4 py-2 rounded-xl"
         href="http://"
         target="_blank"
         rel="noopener noreferrer">
         FUCKING BUY
       </a>
       <p>Tokenomics</p>
-      <p>SUPPLY : 420.69 MILLION</p>
+      <p>SUPPLY : 1,000,000,000,000</p>
       <p>Liquidity 100% (Uniswap V2)</p>
       <div className="flex gap-10">
         <p>NO PRESALE</p>
         <p>NO TEAM TOKENS</p>
         <p>NO TAX</p>
       </div>
-      <a className="bg-green-500 hover:bg-white text-black ease-linear duration-100 transition-all px-4 py-2 rounded-xl"
+      <a className="bg-[#528D27] hover:bg-white text-black ease-linear duration-100 transition-all px-4 py-2 rounded-xl"
         href="http://"
         target="_blank"
         rel="noopener noreferrer">JOIN COMMUNITY</a>
-      <p className="text-xs text-gray-200">COPYRIGHT © 2023 WRAPPED PEPE</p>
+      <p className="text-xs text-gray-200">COPYRIGHT © 2023 WTF</p>
     </main>
   );
 }
