@@ -24,7 +24,7 @@ export default function Home() {
           <source src="/background.mp4" type="video/mp4" />
         </video>
       </div>
-      <p>
+      <p className="text-justify sm:text-center px-2 sm:px-0">
         AI is dope, the whole world is watching the GROK and Chat GPT rivalry.
         However, in my kingdom of DeFi, together you and I are a huge active
         community that has made pretty big memes many times...and we&apos;re about to
