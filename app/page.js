@@ -30,10 +30,10 @@ export default function Home() {
         community that has made pretty big memes many times...and we&apos;re about to
         do it again! <br className="flex"/> <br className="flex"/> Let&apos;s fucking do it, Frogs!
       </p>
-      <p>0x.....................</p>
+      <p>0x0F2552695aB86b5B8276dD03F0e227DF849Fb058</p>
       <a
         className="bg-[#528D27] hover:bg-white text-black ease-linear duration-100 transition-all px-4 py-2 rounded-xl"
-        href="http://"
+        href="https://app.uniswap.org/#/swap?outputCurrency=0x0F2552695aB86b5B8276dD03F0e227DF849Fb058"
         target="_blank"
         rel="noopener noreferrer">
         FUCKING BUY
