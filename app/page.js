@@ -9,8 +9,8 @@ export default function Home() {
         </span>{" "}
         is this market...?!
       </h1>
-      <div className="w-full relative overflow-hidden rounded-2xl shadow-[inset_0px_0px_20px_29px_#141414]">
-        <div className="shadow-[inset_0px_0px_20px_29px_#141414] absolute w-full h-full z-10 top-0"></div>
+      <div className="w-full relative overflow-hidden rounded-2xl ">
+        <img src="/vingete.svg" alt="vingete" className="absolute w-full h-full z-10 top-0"/>
         <video
           src="/background.mp4"
           autoPlay
@@ -39,7 +39,7 @@ export default function Home() {
         FUCKING BUY
       </a>
       <p>Tokenomics</p>
-      <p>SUPPLY : 1,000,000,000,000</p>
+      <p>SUPPLY : 10,000,000,000</p>
       <p>Liquidity 100% (Uniswap V2)</p>
       <div className="flex gap-10">
         <p>NO PRESALE</p>
