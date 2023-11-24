@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex w-[100vw] md:w-[70vw] xl:w-[54vw] min-h-screen flex-col items-center text-center justify-between gap-8">
-      <h1 className=" text-xl ">
-        Missed <span className="font-bold text-[#619e4e]">$FROGE</span>? Here is
+    <main className="flex w-[100vw] md:w-[70vw] text-xl xl:w-[54vw] min-h-screen flex-col items-center text-center justify-between gap-8">
+      <h1 className="  ">
+        Missed <span className="font-bold text-[#619e4e]">$FROGE?</span> <br/>Here is
         your second chance.
       </h1>
       <div className="w-full relative overflow-hidden rounded-2xl ">
@@ -24,12 +24,12 @@ export default function Home() {
         </video>
       </div>
       <p className="text-center px-2 sm:px-0">
-        When life gives you a second chance you take it!
+        When life gives you a second chance you <span className="font-bold text-[#619e4e]">take it!</span>
       </p>
-      <p className="break-words w-[95%]">0x0F2552695aB86b5B8276dD03F0e227DF849Fb058</p>
+      <p className="break-words w-[95%]">0x0....................</p>
       <a
         className="bg-[#528D27] hover:bg-[#D9EA81] text-black px-8 ease-linear duration-100 transition-all  py-2 rounded-xl"
-        href="https://app.uniswap.org/#/swap?outputCurrency=0x0F2552695aB86b5B8276dD03F0e227DF849Fb058"
+        href=""
         target="_blank"
         rel="noopener noreferrer">
         BUY NOW
@@ -49,6 +49,22 @@ export default function Home() {
         rel="noopener noreferrer">
         JOIN COMMUNITY
       </a>
+      <div className="flex items-center sm:gap-10 gap-5">
+      <a
+            className=""
+            href="https://www.dextools.io/"
+            target="_blank"
+            rel="noopener noreferrer">
+            <Image alt="dextools" src={'/dextools.png'} width={40} height={40}/>
+          </a>
+          <a
+            className=" "
+            href="https://etherscan.io/"
+            target="_blank"
+            rel="noopener noreferrer">
+             <Image alt="etherscan" src={'/etherscan.png'} width={40} height={40}/>
+          </a>
+      </div>
       <p className="text-xs text-gray-200">COPYRIGHT © 2023 FROGE 2.0</p>
     </main>
   );
