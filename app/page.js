@@ -26,10 +26,10 @@ export default function Home() {
       <p className="text-center px-2 sm:px-0">
         When life gives you a second chance you <span className="font-bold text-[#619e4e]">take it!</span>
       </p>
-      <p className="break-words w-[95%]">0x0....................</p>
+      <p className="break-words w-[95%]">0xDA115F774b285FC345F18a5Ea451E560CB699E11</p>
       <a
         className="bg-[#528D27] hover:bg-[#D9EA81] text-black px-8 ease-linear duration-100 transition-all  py-2 rounded-xl"
-        href=""
+        href="https://app.uniswap.org/#/swap?outputCurrency=0xDA115F774b285FC345F18a5Ea451E560CB699E11"
         target="_blank"
         rel="noopener noreferrer">
         BUY NOW
@@ -52,14 +52,14 @@ export default function Home() {
       <div className="flex items-center sm:gap-10 gap-5">
       <a
             className="scale-100 hover:scale-110 ease-linear duration-150 transition-all"
-            href="https://www.dextools.io/"
+            href="https://www.dextools.io/app/en/ether/pair-explorer/0xDA115F774b285FC345F18a5Ea451E560CB699E11"
             target="_blank"
             rel="noopener noreferrer">
             <Image alt="dextools" src={'/dextools.png'} width={40} height={40}/>
           </a>
           <a
             className="scale-100 hover:scale-110  ease-linear duration-150 transition-all"
-            href="https://etherscan.io/"
+            href="https://etherscan.io/token/0xDA115F774b285FC345F18a5Ea451E560CB699E11#code"
             target="_blank"
             rel="noopener noreferrer">
              <Image alt="etherscan" src={'/etherscan.png'} width={40} height={40}/>
