@@ -51,14 +51,14 @@ export default function Home() {
       </a>
       <div className="flex items-center sm:gap-10 gap-5">
       <a
-            className=""
+            className="scale-100 hover:scale-110 ease-linear duration-150 transition-all"
             href="https://www.dextools.io/"
             target="_blank"
             rel="noopener noreferrer">
             <Image alt="dextools" src={'/dextools.png'} width={40} height={40}/>
           </a>
           <a
-            className=" "
+            className="scale-100 hover:scale-110  ease-linear duration-150 transition-all"
             href="https://etherscan.io/"
             target="_blank"
             rel="noopener noreferrer">
