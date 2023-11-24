@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="flex w-[100vw] md:w-[70vw] xl:w-[54vw] min-h-screen flex-col items-center text-center justify-between gap-8">
       <h1 className=" text-xl ">
-        Missed <span className="font-bold text-[#528D27]">$FROGE</span>? Here is
+        Missed <span className="font-bold text-[#619e4e]">$FROGE</span>? Here is
         your second chance.
       </h1>
       <div className="w-full relative overflow-hidden rounded-2xl ">
