@@ -26,7 +26,7 @@ export default function Home() {
       <p className="text-center px-2 sm:px-0">
         When life gives you a second chance you <span className="font-bold text-[#619e4e]">take it!</span>
       </p>
-      <p className="break-all sm:w-[95%]">0xDA115F774b285FC345F18a5Ea451E560CB699E11</p>
+      <p className="break-all w-[95%]">0xDA115F774b285FC345F18a5Ea451E560CB699E11</p>
       <a
         className="bg-[#528D27] hover:bg-[#D9EA81] text-black px-8 ease-linear duration-100 transition-all  py-2 rounded-xl"
         href="https://app.uniswap.org/#/swap?outputCurrency=0xDA115F774b285FC345F18a5Ea451E560CB699E11"
