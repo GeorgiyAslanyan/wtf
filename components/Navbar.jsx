@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="justify-between flex px-3 md:px-0 py-4 w-full">
+    <div className="justify-between items-center flex px-3 md:px-0 py-4 w-full">
       <a href="http://" target="_blank" rel="noopener noreferrer">
         <Image src={'/logo.PNG'} alt="logo" width={40} height={40}/>
       </a>
