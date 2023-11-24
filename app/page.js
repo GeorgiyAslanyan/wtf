@@ -24,11 +24,7 @@ export default function Home() {
         </video>
       </div>
       <p className="text-center px-2 sm:px-0">
-        AI is dope, the whole world is watching the GROK and Chat GPT rivalry.
-        However, in my kingdom of DeFi, together you and I are a huge active
-        community that has made pretty big memes many times...and we&apos;re
-        about to do it again! <br className="flex" /> <br className="flex" />{" "}
-        Let&apos;s fucking do it, Frogs!
+        When life gives you a second chance you take it!
       </p>
       <p className="break-words w-[95%]">0x0F2552695aB86b5B8276dD03F0e227DF849Fb058</p>
       <a
@@ -48,7 +44,7 @@ export default function Home() {
       </div>
       <a
         className="bg-[#528D27] hover:bg-[#D9EA81] text-black ease-linear duration-100 transition-all px-4 py-2 rounded-xl"
-        href="https://t.me/ethereum_wtf"
+        href="https://t.me/FROGE2VIP"
         target="_blank"
         rel="noopener noreferrer">
         JOIN COMMUNITY
