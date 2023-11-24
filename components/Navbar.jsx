@@ -8,7 +8,7 @@ const Navbar = () => {
         <Image src={'/logo.PNG'} alt="logo" width={40} height={40}/>
       </a>
       <div className="group relative cursor-pointer">
-        <p className="flex gap-2 items-center">
+        <p className="flex gap-2 text-xl items-center">
           Community{" "}
           <span className="text-white-300 rotate-180 group-hover:rotate-0 duration-150 ease-in-out transition-all">
             <svg
