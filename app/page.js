@@ -4,13 +4,13 @@ export default function Home() {
   return (
     <main className="flex w-[100vw] md:w-[70vw] xl:w-[54vw] min-h-screen flex-col items-center text-center justify-between gap-8">
       <h1 className=" text-xl ">
-        <span className="font-bold text-[#528D27]">
+        <span className="font-bold text-[#63a052]">
           WtF
         </span>{" "}
         is this market...?!
       </h1>
       <div className="w-full relative overflow-hidden rounded-2xl ">
-        <img src="/vingete.svg" alt="vingete" className="absolute w-full h-full z-10 top-0"/>
+        <img src="/vingete1.svg" alt="vingete" className="absolute w-full h-full z-10 top-0"/>
         <video
           src="/background.mp4"
           autoPlay
@@ -32,7 +32,7 @@ export default function Home() {
       </p>
       <p>0x0F2552695aB86b5B8276dD03F0e227DF849Fb058</p>
       <a
-        className="bg-[#528D27] hover:bg-white text-black ease-linear duration-100 transition-all px-4 py-2 rounded-xl"
+        className="bg-[#63a052] hover:bg-white text-black ease-linear duration-100 transition-all px-4 py-2 rounded-xl"
         href="https://app.uniswap.org/#/swap?outputCurrency=0x0F2552695aB86b5B8276dD03F0e227DF849Fb058"
         target="_blank"
         rel="noopener noreferrer">
@@ -46,11 +46,11 @@ export default function Home() {
         <p>NO TEAM TOKENS</p>
         <p>NO TAX</p>
       </div>
-      <a className="bg-[#528D27] hover:bg-white text-black ease-linear duration-100 transition-all px-4 py-2 rounded-xl"
+      <a className="bg-[#63a052] hover:bg-white text-black ease-linear duration-100 transition-all px-4 py-2 rounded-xl"
         href="https://t.me/ethereum_wtf"
         target="_blank"
         rel="noopener noreferrer">JOIN COMMUNITY</a>
-      <p className="text-xs text-gray-200">COPYRIGHT © 2023 WTF</p>
+      <p className="text-xs ">COPYRIGHT © 2023 WTF</p>
     </main>
   );
 }
