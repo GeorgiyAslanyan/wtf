@@ -32,15 +32,15 @@ export default function Home() {
       </p>
       <p className="break-words w-[95%]">0x0F2552695aB86b5B8276dD03F0e227DF849Fb058</p>
       <a
-        className="bg-[#528D27] hover:bg-[#D9EA81] text-black ease-linear duration-100 transition-all px-4 py-2 rounded-xl"
+        className="bg-[#528D27] hover:bg-[#D9EA81] text-black px-8 ease-linear duration-100 transition-all  py-2 rounded-xl"
         href="https://app.uniswap.org/#/swap?outputCurrency=0x0F2552695aB86b5B8276dD03F0e227DF849Fb058"
         target="_blank"
         rel="noopener noreferrer">
-        FUCKING BUY
+        BUY NOW
       </a>
       <p>Tokenomics</p>
-      <p>Supply: 10,000,000,000</p>
-      <p>Liquidity 100% (Uniswap V2)</p>
+      <p>Supply: 690,420,000,000,000</p>
+      <p>Liquidity Locked (Uniswap V2)</p>
       <div className="flex sm:gap-10 gap-5">
         <p>NO PRESALE</p>
         <p>NO TEAM TOKENS</p>
@@ -53,7 +53,7 @@ export default function Home() {
         rel="noopener noreferrer">
         JOIN COMMUNITY
       </a>
-      <p className="text-xs text-gray-200">COPYRIGHT © 2023 WTF</p>
+      <p className="text-xs text-gray-200">COPYRIGHT © 2023 FROGE 2.0</p>
     </main>
   );
 }
