@@ -3,6 +3,11 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500;600&display=swap');
 
+@font-face {
+  font-family: 'JagAlskarDig';
+  src: url('../fonts/JagAlskarDig.otf') format('truetype');
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -17,12 +22,6 @@
   }
 }
 
-@font-face {
-  font-family: 'Unutterable-Regular';
-  font-style: normal;
-  font-weight: normal;
-  src: local('/Unutterable-Regular'), url('/Unutterable-Regular.woff') format('woff');
-}
 
 
 body {
@@ -30,3 +29,11 @@ body {
   color: rgb(var(--foreground-rgb));
 }
 
+
+.jag {
+  font-family: 'JagAlskarDig', sans-serif;
+}
+
+.space {
+  font-family: 'Roboto Mono', monospace;
+}
