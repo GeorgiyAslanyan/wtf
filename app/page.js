@@ -7,7 +7,7 @@ export default function Home() {
         Missed <span className="font-bold text-[#619e4e]">$FROGE?</span> <br/>Here is
         your second chance.
       </h1>
-      <div className="w-full relative overflow-hidden rounded-2xl ">
+      <div className="w-full flex items-center justify-center relative overflow-hidden rounded-2xl ">
         <img
           src="/vingete.svg"
           alt="vingete"
@@ -19,7 +19,7 @@ export default function Home() {
           playsInline
           muted
           loop
-          className="z-0 p-[2px] bg-[#141414] w-full flex rounded-2xl">
+          className="z-0 p-[2px] bg-[#141414] h-auto sm:h-[80vh] w-full sm:w-auto flex rounded-2xl">
           <source src="/background.mp4" type="video/mp4" />
         </video>
       </div>
