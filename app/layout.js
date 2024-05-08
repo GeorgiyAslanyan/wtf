@@ -2,7 +2,7 @@ import Navbar from '@/components/Navbar'
 import './globals.css'
 
 export const metadata = {
-  title: 'FROGE 2.0',
+  title: 'GUD MEME',
   description: 'When life gives you a second chance you take it!',
 }
 

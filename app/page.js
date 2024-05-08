@@ -22,7 +22,7 @@ export default function Home() {
         </video>
       </div>
       <p className="jag flex gap-4 text-[#528D27] text-center text-4xl px-2 sm:px-0">
-      <span>Gud</span> <span>Meme</span>е
+      <span>Gud</span> <span>Meme</span>
       </p>
       <p className="break-all w-[95%]">
           0x420690...........
