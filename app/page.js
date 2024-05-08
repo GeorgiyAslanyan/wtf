@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex relative z-[1] w-[100vw] md:w-[70vw] text-xl xl:w-[54vw] min-h-svh flex-col items-center text-center justify-between gap-8">
-      <p className="jag text-[#528D27] text-4xl flex gap-4"><span>Gud</span> <span>Meme</span></p>
+      <p className="jag text-[#528D27] text-4xl flex gap-4"><span>HI,</span><span> Fren!</span> <span> I’m </span> <span>GM</span></p>
       <div className="w-full flex items-center justify-center relative overflow-hidden rounded-2xl ">
         <img
           src="/vingete.svg"
@@ -22,7 +22,7 @@ export default function Home() {
         </video>
       </div>
       <p className="jag flex gap-4 text-[#528D27] text-center text-4xl px-2 sm:px-0">
-      <span>HI,</span><span> Fren!</span> <span> I’m </span> <span>GM</span>
+      <span>Gud</span> <span>Meme</span>е
       </p>
       <p className="break-all w-[95%]">
           0x420690...........
