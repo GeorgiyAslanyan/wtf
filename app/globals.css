@@ -5,8 +5,14 @@
 
 @font-face {
   font-family: 'JagAlskarDig';
-  src: url('../fonts/JagAlskarDig.otf') format('truetype');
+  src: url('../fonts/JagAlskarDigKanInteSe.otf') format('truetype');
 }
+
+@font-face {
+  font-family: 'FirstTime';
+  src: url('../fonts/FirstTimeWriting.ttf') format('truetype');
+}
+
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -25,7 +31,7 @@
 
 
 body {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'FirstTime', sans-serif;
   color: rgb(var(--foreground-rgb));
 }
 
