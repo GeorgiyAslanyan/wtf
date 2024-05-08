@@ -29,14 +29,14 @@ const Navbar = () => {
         <div className="opacity-0 group-hover:opacity-100 text-xl right-0 -mt-1 group-hover:mt-1 duration-100 ease-in-out transition-all flex absolute z-20 flex-col gap-4 px-7 py-3 rounded-xl bg-black backdrop-blur-xl bg-opacity-40">
           <a
             className="text-gray-400 hover:text-white "
-            href="https://t.me/FROGE2VIP"
+            href="#"
             target="_blank"
             rel="noopener noreferrer">
             Telegram
           </a>
           <a
             className="text-gray-400 hover:text-white "
-            href="https://twitter.com/froge2vip"
+            href="#"
             target="_blank"
             rel="noopener noreferrer">
             Twitter

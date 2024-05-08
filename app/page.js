@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex relative z-[1] w-[100vw] md:w-[70vw] text-xl xl:w-[54vw] min-h-svh flex-col items-center text-center justify-between gap-8">
-      <h1 className="jag text-4xl text-[#528D27]">Gud Meme</h1>
+      <p className="jag text-[#528D27] text-4xl flex gap-4"><span>Gud</span> <span>Meme</span></p>
       <div className="w-full flex items-center justify-center relative overflow-hidden rounded-2xl ">
         <img
           src="/vingete.svg"
@@ -21,11 +21,11 @@ export default function Home() {
           <source src="/background.mp4" type="video/mp4" />
         </video>
       </div>
-      <p className="jag text-[#528D27] text-center text-4xl px-2 sm:px-0">
-      HI, Fren! I’m GM
+      <p className="jag flex gap-4 text-[#528D27] text-center text-4xl px-2 sm:px-0">
+      <span>HI,</span><span> Fren!</span> <span> I’m </span> <span>GM</span>
       </p>
       <p className="break-all w-[95%]">
-        0xDA115F774b285FC345F18a5Ea451E560CB699E11
+          0x420690...........
       </p>
       <a
         className="bg-[#528D27] hover:bg-[#D9EA81] text-black px-8 ease-linear duration-100 transition-all  py-2 rounded-xl"
@@ -36,8 +36,8 @@ export default function Home() {
         BUY NOW
       </a>
       <p>Tokenomics</p>
-      <p>Supply: 690,420,000,000,000</p>
-      <p>Liquidity Locked (Uniswap V2)</p>
+      <p>Supply: 420,690,000,000,000</p>
+      <p>Liquidity Burned</p>
       <div className="flex sm:gap-10 gap-5">
         <p>NO PRESALE</p>
         <p>NO TEAM TOKENS</p>
@@ -54,7 +54,7 @@ export default function Home() {
       <div className="flex items-center sm:gap-10 gap-5">
         <a
           className="scale-100 hover:scale-110 ease-linear duration-150 transition-all"
-          href="https://www.dextools.io/app/en/ether/pair-explorer/0xDA115F774b285FC345F18a5Ea451E560CB699E11"
+          href="#"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -62,7 +62,7 @@ export default function Home() {
         </a>
         <a
           className="scale-100 hover:scale-110  ease-linear duration-150 transition-all"
-          href="https://etherscan.io/token/0xDA115F774b285FC345F18a5Ea451E560CB699E11#code"
+          href="#"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -74,7 +74,7 @@ export default function Home() {
           />
         </a>
       </div>
-      <p className="text-xs text-gray-200">COPYRIGHT © 2023 FROGE 2.0</p>
+      <p className="text-xs text-gray-200">COPYRIGHT © 2024 GM Squad</p>
     </main>
   );
 }
