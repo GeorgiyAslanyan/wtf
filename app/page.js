@@ -28,7 +28,7 @@ export default function Home() {
           0x420690...........
       </p>
       <a
-        className="bg-[#528D27] hover:bg-[#D9EA81] text-black px-8 ease-linear duration-100 transition-all  py-2 rounded-xl"
+        className="bg-[#528D27] hover:bg-[#D9EA81] text-black px-8 ease-linear duration-100 transition-all py-2 rounded-xl"
         href="https://app.uniswap.org/#/swap?outputCurrency=0xDA115F774b285FC345F18a5Ea451E560CB699E11"
         target="_blank"
         rel="noopener noreferrer"
@@ -36,20 +36,21 @@ export default function Home() {
         BUY NOW
       </a>
       <p>Tokenomics</p>
-      <p>Supply: 420,690,000,000,000</p>
-      <p>Liquidity Burned</p>
+      <p className="flex gap-2 flex-wrap"> <span>Supply:</span> <span> 420,690,000,000,000</span></p>
+      <p className="flex gap-2 flex-wrap"> <span>Liquidity</span> <span>Burned</span> </p>
       <div className="flex sm:gap-10 gap-5">
         <p>NO PRESALE</p>
         <p>NO TEAM TOKENS</p>
         <p>NO TAX</p>
       </div>
       <a
-        className="bg-[#528D27] hover:bg-[#D9EA81] text-black ease-linear duration-100 transition-all px-4 py-2 rounded-xl"
+        className="bg-[#528D27] hover:bg-[#D9EA81] text-black ease-linear duration-100 transition-all px-4 py-2 rounded-xl flex gap-2 items-center justify-center flex-wrap"
         href="https://t.me/FROGE2VIP"
         target="_blank"
         rel="noopener noreferrer"
       >
-       Join &quot;GM Squad&quot; and ape into $GM for a fun NOW FREN!
+        <span>Join</span> <span>&quot;GM Squad&quot;</span> <span>and</span> <span>ape</span> <span>into</span> <span>$GM</span> <span>for</span> <span>a</span> <span> fun </span> <span>NOW </span> <span>FREN!</span>
+              
       </a>
       <div className="flex items-center sm:gap-10 gap-5">
         <a
@@ -74,7 +75,7 @@ export default function Home() {
           />
         </a>
       </div>
-      <p className="text-xs text-gray-200">COPYRIGHT © 2024 GM Squad</p>
+      <p className="text-xs text-gray-200 flex gap-1 flex-wrap"><span>COPYRIGHT © 2024</span> <span> GM Squad</span></p>
     </main>
   );
 }
