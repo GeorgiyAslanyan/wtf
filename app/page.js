@@ -23,6 +23,16 @@ export default function Home() {
       </div>
       <p className="jag flex gap-4 text-[#528D27] text-center text-4xl px-2 sm:px-0">
       <span>Gud</span> <span>Meme</span>
+      
+      </p>
+      <p
+        className="flex gap-2 flex-wrap px-2 items-center justify-center"
+        href="https://t.me/FROGE2VIP"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <span>Join</span> <span>&quot;GM Squad&quot;</span> <span>and</span> <span>ape</span> <span>into</span> <span>$GM</span> <span>for</span> <span>a</span> <span> fun </span> <span>NOW </span> <span>FREN!</span>
+              
       </p>
       <p className="break-all w-[95%]">
           0x420690...........
@@ -43,15 +53,7 @@ export default function Home() {
         <p>NO TEAM TOKENS</p>
         <p>NO TAX</p>
       </div>
-      <a
-        className="bg-[#528D27] hover:bg-[#D9EA81] text-black ease-linear duration-100 transition-all px-4 py-2 rounded-xl flex gap-2 items-center justify-center flex-wrap"
-        href="https://t.me/FROGE2VIP"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <span>Join</span> <span>&quot;GM Squad&quot;</span> <span>and</span> <span>ape</span> <span>into</span> <span>$GM</span> <span>for</span> <span>a</span> <span> fun </span> <span>NOW </span> <span>FREN!</span>
-              
-      </a>
+      
       <div className="flex items-center sm:gap-10 gap-5">
         <a
           className="scale-100 hover:scale-110 ease-linear duration-150 transition-all"
