@@ -52,7 +52,7 @@ export default function Home() {
       <div className="flex items-center sm:gap-10 gap-5">
         <a
           className="scale-100 hover:scale-110 ease-linear duration-150 transition-all"
-          href="#"
+          href="https://www.dextools.io/app/en/ether/pair-explorer/0xc58165e65e2933b75882333cb3c9eaf67a31ce5d?t=1716498107154"
           target="_blank"
           rel="noopener noreferrer"
         >
