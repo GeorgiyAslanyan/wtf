@@ -31,11 +31,11 @@ export default function Home() {
         <span>Join</span> <span>&quot;GM&quot;</span> <span>and</span> <span>ape</span> <span>into</span> <span>$GM</span> <span>for</span> <span>a</span> <span> fun </span> <span>NOW </span> <span>FRENS!</span>       
       </p>
       <p className="break-all w-[95%] text-[#528D27]">
-      0x...
+      0x79e83443e0832840885E5a0EE6d2Fd07010DD974
       </p>
       <a
         className="bg-[#528D27] text-[#141414] px-8 ease-linear duration-100 transition-all py-2 rounded-xl"
-        href="https://app.uniswap.org/swap?outputCurrency=0x..."
+        href="https://app.uniswap.org/swap?outputCurrency=0x79e83443e0832840885E5a0EE6d2Fd07010DD974"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -61,7 +61,7 @@ export default function Home() {
         
         <a
           className="scale-100 hover:scale-110  ease-linear duration-150 transition-all"
-          href="https://etherscan.io/token/0x..."
+          href="https://etherscan.io/token/0x79e83443e0832840885E5a0EE6d2Fd07010DD974"
           target="_blank"
           rel="noopener noreferrer"
         >
