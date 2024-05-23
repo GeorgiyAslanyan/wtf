@@ -17,13 +17,10 @@ export default function Home() {
           muted
           loop
           className="z-0 p-[2px] bg-[#141414] h-auto sm:h-[80vh] w-full sm:w-auto flex rounded-2xl"
-        >
-          <source src="/background.mp4" type="video/mp4" />
-        </video>
+        ><source src="/background.mp4" type="video/mp4" /></video>
       </div>
       <p className="jag flex gap-4 text-[#528D27] text-center text-4xl px-2 sm:px-0">
       <span>Gud</span> <span>Meme</span>
-      
       </p>
       <p
         className="flex gap-2 flex-wrap px-2 items-center justify-center"
@@ -31,21 +28,20 @@ export default function Home() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <span>Join</span> <span>&quot;GM Squad&quot;</span> <span>and</span> <span>ape</span> <span>into</span> <span>$GM</span> <span>for</span> <span>a</span> <span> fun </span> <span>NOW </span> <span>FREN!</span>
-              
+        <span>Join</span> <span>&quot;GM Squad&quot;</span> <span>and</span> <span>ape</span> <span>into</span> <span>$GM</span> <span>for</span> <span>a</span> <span> fun </span> <span>NOW </span> <span>FREN!</span>       
       </p>
-      <p className="break-all w-[95%]">
-          0x420690...........
+      <p className="break-all w-[95%] text-[#528D27]">
+      0x4206902Be961847906b610A90E57F049Ec3c3841
       </p>
       <a
-        className="bg-[#528D27] hover:bg-[#D9EA81] text-black px-8 ease-linear duration-100 transition-all py-2 rounded-xl"
+        className="bg-[#528D27] hover:bg-[#D9EA81] text-[#141414] px-8 ease-linear duration-100 transition-all py-2 rounded-xl"
         href="https://app.uniswap.org/#/swap?outputCurrency=0xDA115F774b285FC345F18a5Ea451E560CB699E11"
         target="_blank"
         rel="noopener noreferrer"
       >
         BUY NOW
       </a>
-      <p>Tokenomics</p>
+      <p className="text-[#528D27]">Tokenomics</p>
       <p className="flex gap-2 flex-wrap"> <span>Supply:</span> <span> 420,690,000,000,000</span></p>
       <p className="flex gap-2 flex-wrap"> <span>Liquidity</span> <span>Burned</span> </p>
       <div className="flex sm:gap-10 gap-5">
@@ -53,7 +49,6 @@ export default function Home() {
         <p>NO TEAM TOKENS</p>
         <p>NO TAX</p>
       </div>
-      
       <div className="flex items-center sm:gap-10 gap-5">
         <a
           className="scale-100 hover:scale-110 ease-linear duration-150 transition-all"
@@ -63,9 +58,10 @@ export default function Home() {
         >
           <Image alt="dextools" src={"/dextools.png"} width={40} height={40} />
         </a>
+        
         <a
           className="scale-100 hover:scale-110  ease-linear duration-150 transition-all"
-          href="#"
+          href="https://etherscan.io/token/0x4206902Be961847906b610A90E57F049Ec3c3841"
           target="_blank"
           rel="noopener noreferrer"
         >
