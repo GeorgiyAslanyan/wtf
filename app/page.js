@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex relative z-[1] w-[100vw] md:w-[70vw] text-xl xl:w-[54vw] min-h-svh flex-col items-center text-center justify-between gap-8">
-      <p className="jag text-[#528D27] text-4xl flex gap-4"><span>HI,</span><span> Fren!</span> <span> I’m </span> <span>GM</span></p>
+      <p className="jag text-[#528D27] text-4xl flex gap-4"><span>Hi,</span><span> Frens!</span> <span> I’m </span> <span>GM</span></p>
       <div className="w-full flex items-center justify-center relative overflow-hidden rounded-2xl ">
         <img
           src="/vingete.svg"
@@ -28,14 +28,14 @@ export default function Home() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <span>Join</span> <span>&quot;GM Squad&quot;</span> <span>and</span> <span>ape</span> <span>into</span> <span>$GM</span> <span>for</span> <span>a</span> <span> fun </span> <span>NOW </span> <span>FREN!</span>       
+        <span>Join</span> <span>&quot;GM&quot;</span> <span>and</span> <span>ape</span> <span>into</span> <span>$GM</span> <span>for</span> <span>a</span> <span> fun </span> <span>NOW </span> <span>FRENS!</span>       
       </p>
       <p className="break-all w-[95%] text-[#528D27]">
       0x4206902Be961847906b610A90E57F049Ec3c3841
       </p>
       <a
-        className="bg-[#528D27] hover:bg-[#D9EA81] text-[#141414] px-8 ease-linear duration-100 transition-all py-2 rounded-xl"
-        href="https://app.uniswap.org/#/swap?outputCurrency=0xDA115F774b285FC345F18a5Ea451E560CB699E11"
+        className="bg-[#528D27] text-[#141414] px-8 ease-linear duration-100 transition-all py-2 rounded-xl"
+        href="https://app.uniswap.org/swap?outputCurrency=0x4206902Be961847906b610A90E57F049Ec3c3841"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -73,7 +73,7 @@ export default function Home() {
           />
         </a>
       </div>
-      <p className="text-xs text-gray-200 flex gap-1 flex-wrap"><span>COPYRIGHT © 2024</span> <span> GM Squad</span></p>
+      <p className="text-xs text-gray-200 flex gap-1 flex-wrap"><span>COPYRIGHT © 2024</span> <span> GM</span></p>
     </main>
   );
 }
