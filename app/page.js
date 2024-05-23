@@ -42,7 +42,7 @@ export default function Home() {
         BUY NOW
       </a>
       <p className="text-[#528D27]">Tokenomics</p>
-      <p className="flex gap-2 flex-wrap"> <span>Supply:</span> <span> 420,690,000,000,000</span></p>
+      <p className="flex gap-2 flex-wrap"> <span>Supply:</span> <span> 420,690,000,000</span></p>
       <p className="flex gap-2 flex-wrap"> <span>Liquidity</span> <span>Burned</span> </p>
       <div className="flex sm:gap-10 gap-5">
         <p>NO PRESALE</p>
