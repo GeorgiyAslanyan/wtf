@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex relative z-[1] w-[100vw] md:w-[70vw] text-xl xl:w-[54vw] min-h-svh flex-col items-center text-center justify-between gap-6">
-      <p className="jag text-white text-4xl flex gap-4"><span className="text-[#528D27]">WTF</span><span> is </span> <span> this  </span> <span>market ..?!</span></p>
+      <p className="jag text-white text-2xl sm:text-4xl flex gap-4"><span className="text-[#528D27]">WTF</span><span> is </span> <span> this  </span> <span>market ..?!</span></p>
       <div className="w-full flex items-center justify-center relative overflow-hidden rounded-2xl ">
       <img
             src="/vingete.svg"
