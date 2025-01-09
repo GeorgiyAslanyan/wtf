@@ -2,8 +2,8 @@ import Navbar from '@/components/Navbar'
 import './globals.css'
 
 export const metadata = {
-  title: 'GUD MEME',
-  description: 'When life gives you a second chance you take it!',
+  title: 'WTF is this market ..?!',
+  description: 'WTF is up with all these AI agents..  all u need is frogs and dogs and cats.. Memes dont need AI.. WTF!',
 }
 
 export default function RootLayout({ children }) {
