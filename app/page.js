@@ -32,7 +32,7 @@ export default function Home() {
         <span>WTF</span> <span> is</span><span> up</span><span> with</span><span> all</span><span> these</span>
         <span> AI</span><span> agents..</span><span>  all</span><span> u</span><span> need</span>
         <span> is </span><span>frogs</span><span> and </span><span>dogs </span><span>and</span>
-        <span> cats..</span><span> Memes</span><span> don't</span><span> need AI.. WTF!</span>
+        <span> cats..</span><span> Memes</span><span> don&apos;t</span><span> need AI.. WTF!</span>
         <span> need</span> <span> AI..</span> <span> WTF!</span>
         
       </p>
