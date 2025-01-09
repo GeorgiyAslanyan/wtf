@@ -29,15 +29,15 @@ export default function Home() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <span>WTF</span> <span> is</span><span> up</span><span> with</span><span> all</span><span> these</span>
+        <span className="text-[#528D27]">WTF</span> <span> is</span><span> up</span><span> with</span><span> all</span><span> these</span>
         <span> AI</span><span> agents..</span><span>  all</span><span> u</span><span> need</span>
         <span> is </span><span>frogs</span><span> and </span><span>dogs </span><span>and</span>
-        <span> cats..</span><span> Memes</span><span> don&apos;t</span><span> need AI.. WTF!</span>
-        <span> need</span> <span> AI..</span> <span> WTF!</span>
+        <span> cats..</span><span> Memes</span><span> don&apos;t</span><span> need  </span>
+        <span> AI..</span><span className="text-[#528D27]"> WTF!</span> 
         
       </p>
-      <p className="break-all w-[95%] text-[#528D27]">
-      7arBocv8poaTincPX7y586eAHJuhYxiNgUa18iDWpump
+      <p className="break-all w-[95%] ">
+      8a.......................................pump
       </p>
       <a
         className="bg-[#528D27] text-[#141414] px-8 ease-linear duration-100 transition-all py-2 rounded-xl"
@@ -51,13 +51,13 @@ export default function Home() {
       <p className="flex gap-2 flex-wrap"> <span>Supply:</span> <span> 1,000,000,000</span></p>
       <a
         className="bg-[#528D27] text-[#141414] flex gap-2 px-8 ease-linear duration-100 transition-all py-2 rounded-xl"
-        href="https://pump.fun/board"
+        href="https://t.me/frogonsol_wtf"
         target="_blank"
         rel="noopener noreferrer"
       >
         <span>JOIN </span><span>COMMUNITY</span>
       </a>
-      <p className="text-xs text-gray-200 flex gap-1 flex-wrap"><span>COPYRIGHT © 2024 </span> <span> WTF</span></p>
+      <p className="text-xs text-gray-200 flex gap-1 flex-wrap"><span>COPYRIGHT © 2025 </span> <span> WTF</span></p>
     </main>
   );
 }
